@@ -1,0 +1,31 @@
+kerdesek:
+	mennyire lehet elore szamolnom munkaval?
+	hogy alla befektetes? FFF van emg csak?
+	kikkel ebszelt netwokring,business fejlesztes kapcsan?
+	milyen platform? iOS? --> more time required to get stuff
+
+database:
+	RL el is lehet már :D
+	
+	lehetosegek:
+		indexing,
+		limitalas oszlopokra (nem *), LIMIT hasznáalta ha mondjuk 1 sort keresek, ne keressen tobbet ha amr van egy
+		WHERE (full join) helyett inner join hasznalata
+		unique update, insert
+	
+	output, cpu, IO, comm speed
+	mostly write, read, both?
+	indexing: pl column sort 
+		--> meg kell csinalni
+		--> plusz költseg beszurasnal, torlesnel (update index)
+	clustered index --> A-Z rendezéshez hasonlo
+	nem jo 
+		- ha sok szoveg van
+		- sokat valtozo columnok
+	nonclustered (filtered):
+		tudom, hogy ebben az esetben ezekkel a sorokkal fogok dolgozni, erre az eshetőségre foglaljuk ezeket a sorokat egy index alá
+		
+	consideration: partitioning, multiserver databases
+		gyakran valtozo tablak kulon particion --> nagyon lassu lesz
+		
+	
