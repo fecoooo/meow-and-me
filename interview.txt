@@ -1,4 +1,6 @@
 kerdesek:
+	do you have a game to try? what kind of games?
+	how did the idea came from? why?
 	mennyire lehet elore szamolnom munkaval?
 	hogy alla befektetes? FFF van emg csak?
 	kikkel ebszelt netwokring,business fejlesztes kapcsan?
@@ -28,4 +30,5 @@ database:
 	consideration: partitioning, multiserver databases
 		gyakran valtozo tablak kulon particion --> nagyon lassu lesz
 		
+	
 	
